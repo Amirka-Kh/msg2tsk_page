@@ -35,25 +35,25 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  - title                                 : Everything on Telegram
+    description                           : With WebApp all management work is available on Telegram. Explore the bot features and interact with WebApp to investigate all project capabilites.
+    fontawesome_icon_name                 : mobile
+
   - title                                 : Task Creation
     description                           : We will efficiently convert forwarded messages into tasks, extracting important details such as deadlines, descriptions, and priorities, making it easy for users to manage their responsibilities
     fontawesome_icon_name                 : magic
   
-  - title                                 : Task Prioritization
-    description                           : We will analyze the content of forwarded messages to prioritize tasks based on urgency and importance, ensuring that users focus on what matters most at any given time
+  - title                                 : Task Editing
+    description                           : We provide a wide functionality to edit and cofigure tasks, fix the mistakes, complete and delete them.
     fontawesome_icon_name                 : star
 
   - title                                 : Task Reminders
     description                           : We will send timely reminders and notifications to users, helping them stay on track with their tasks and ensuring they never miss an important deadline or commitment.
     fontawesome_icon_name                 : info-circle
 
-  - title                                 : Everything on Telegram
-    description                           : All functionality is on telegram
-    fontawesome_icon_name                 : mobile
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Task Prioritization
+    description                           : We will analyze the content of forwarded messages to prioritize tasks based on urgency and importance, ensuring that users focus on what matters most at any given time
+    fontawesome_icon_name                 : magic
 
 
 
