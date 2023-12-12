@@ -1,98 +1,89 @@
 #page title
-page_title                                : Msg2Task - Your Personal Task Bot          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: Msg2Task - Your Personal Task Bot  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id: # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country: # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link: https://t.me/taskmiester2213_bot
 playstore_link:
-presskit_download_link: https://emilbaehr.com # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+presskit_download_link: # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Msg2Task
-app_price                                 : 
-app_description                           : Msg2Task is your virtual task organizer! Forward messages to us, and we'll turn them into actionable tasks, helping you stay organized and on top of your to-do list effortlessly.
+app_icon: assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: Msg2Task
+app_price:
+app_description: Msg2Task is your virtual task organizer! Forward messages to us, and we'll turn them into actionable tasks, helping you stay organized and on top of your to-do list effortlessly.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner: true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Amir Khuzin                                
-your_link                                 :
-your_city                                 : Innopolis                                
-email_address                             : amirabikhuja@gmail.com
-facebook_username                         :                                           
-instagram_username                        : 
-twitter_username                          : 
-github_username                           : 
-youtube_username                          :
-mastodon_link                             :
+your_name: Amir Khuzin
+your_link:
+your_city: Innopolis
+email_address: amirabikhuja@gmail.com
+facebook_username:
+instagram_username:
+twitter_username:
+github_username: https://github.com/Amirka-Kh
+youtube_username:
+mastodon_link:
 
 
+features:
 
-# Feature List                            Edit, add or remove features to be presented.
-features                                  :
+  - title: Everything on Telegram
+    description: With WebApp all management work is available on Telegram. Explore the bot features and interact with WebApp to investigate all project capabilites.
+    fontawesome_icon_name: mobile
 
-  - title                                 : Everything on Telegram
-    description                           : With WebApp all management work is available on Telegram. Explore the bot features and interact with WebApp to investigate all project capabilites.
-    fontawesome_icon_name                 : mobile
+  - title: Task Creation
+    description: We will efficiently convert forwarded messages into tasks, extracting important details such as deadlines, descriptions, and priorities, making it easy for users to manage their responsibilities
+    fontawesome_icon_name: magic
 
-  - title                                 : Task Creation
-    description                           : We will efficiently convert forwarded messages into tasks, extracting important details such as deadlines, descriptions, and priorities, making it easy for users to manage their responsibilities
-    fontawesome_icon_name                 : magic
-  
-  - title                                 : Task Editing
-    description                           : We provide a wide functionality to edit and cofigure tasks, fix the mistakes, complete and delete them.
-    fontawesome_icon_name                 : star
+  - title: Task Editing
+    description: We provide a wide functionality to edit and cofigure tasks, fix the mistakes, complete and delete them.
+    fontawesome_icon_name: star
 
-  - title                                 : Task Reminders
-    description                           : We will send timely reminders and notifications to users, helping them stay on track with their tasks and ensuring they never miss an important deadline or commitment.
-    fontawesome_icon_name                 : info-circle
+  - title: Task Reminders
+    description: We will send timely reminders and notifications to users, helping them stay on track with their tasks and ensuring they never miss an important deadline or commitment.
+    fontawesome_icon_name: info-circle
 
-  - title                                 : Task Prioritization
-    description                           : We will analyze the content of forwarded messages to prioritize tasks based on urgency and importance, ensuring that users focus on what matters most at any given time
-    fontawesome_icon_name                 : magic
+  - title: Task Prioritization
+    description: We will analyze the content of forwarded messages to prioritize tasks based on urgency and importance, ensuring that users focus on what matters most at any given time
+    fontawesome_icon_name: magic
 
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color : "#363b3d"
+cover_overlay_transparency: 0.8
 
-device_color                              : blue                                     # Set to: blue, black, yellow, coral or white.
+device_color: blue                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color: "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color: "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color: "#000000"
+feature_text_color: "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
+footer_text_color: "#666666"
 
 
 
