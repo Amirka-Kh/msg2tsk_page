@@ -111,3 +111,10 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["ru", "en"]
+exclude_from_localizations: ["assets"]
+default_locale_in_subfolder: true
