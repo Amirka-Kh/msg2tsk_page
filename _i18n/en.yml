@@ -1,0 +1,47 @@
+global:
+  english: English
+  russian: Русский
+  app_description: Msg2Task is your virtual task organizer! Forward messages to us, and we'll turn them into actionable tasks, helping you stay organized and on top of your to-do list effortlessly.
+  app_price: Free while beta
+pages:
+  changelog: What's New
+  products: Our Products
+  privacy_policy: Privacy Policy
+footer:
+  adapted: Redesigned by
+  in: in
+  base: Base made by
+  author: Emil
+  your_name: Amir
+  your_city: Innopolis
+pageskuuk:
+  -
+    url: changelog
+    title: What's New
+  -
+    url: products
+    title: Our Products
+  -
+    url: privacypolicy
+    title: Privacy Policy
+features:
+  -
+    title: Everything on Telegram
+    description: With WebApp all management work is available on Telegram. Explore the bot features and interact with WebApp to investigate all project capabilites.
+    fontawesome_icon_name: mobile
+  -
+    title: Task Creation
+    description: We will efficiently convert forwarded messages into tasks, extracting important details such as deadlines, descriptions, and priorities, making it easy for users to manage their responsibilities
+    fontawesome_icon_name: magic
+  -
+    title: Task Editing
+    description: We provide a wide functionality to edit and cofigure tasks, fix the mistakes, complete and delete them.
+    fontawesome_icon_name: star
+  -
+    title: Task Reminders
+    description: We will send timely reminders and notifications to users, helping them stay on track with their tasks and ensuring they never miss an important deadline or commitment.
+    fontawesome_icon_name: info-circle
+  -
+    title: Task Prioritization
+    description: We will analyze the content of forwarded messages to prioritize tasks based on urgency and importance, ensuring that users focus on what matters most at any given time
+    fontawesome_icon_name: magic

@@ -5,14 +5,12 @@ page_title: Msg2Task - Your Personal Task Bot  # Automatically populates with ap
 ios_app_id: # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country: # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link: https://t.me/taskmiester2213_bot
-playstore_link:
+tg_bot_link: https://t.me/taskmiester2213_bot
+tg_channel_link: https://t.me/messtar
 presskit_download_link: # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
 
 app_icon: assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Msg2Task
-app_price:
-app_description: Msg2Task is your virtual task organizer! Forward messages to us, and we'll turn them into actionable tasks, helping you stay organized and on top of your to-do list effortlessly.
 
 enable_smart_app_banner: true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -20,7 +18,7 @@ enable_smart_app_banner: true                                      # Set to true
 
 # Information About Yourself
 your_name: Amir Khuzin
-your_link:
+your_link: https://github.com/Amirka-Kh
 your_city: Innopolis
 email_address: amirabikhuja@gmail.com
 facebook_username:
@@ -29,31 +27,6 @@ twitter_username:
 github_username: https://github.com/Amirka-Kh
 youtube_username:
 mastodon_link:
-
-
-features:
-
-  - title: Everything on Telegram
-    description: With WebApp all management work is available on Telegram. Explore the bot features and interact with WebApp to investigate all project capabilites.
-    fontawesome_icon_name: mobile
-
-  - title: Task Creation
-    description: We will efficiently convert forwarded messages into tasks, extracting important details such as deadlines, descriptions, and priorities, making it easy for users to manage their responsibilities
-    fontawesome_icon_name: magic
-
-  - title: Task Editing
-    description: We provide a wide functionality to edit and cofigure tasks, fix the mistakes, complete and delete them.
-    fontawesome_icon_name: star
-
-  - title: Task Reminders
-    description: We will send timely reminders and notifications to users, helping them stay on track with their tasks and ensuring they never miss an important deadline or commitment.
-    fontawesome_icon_name: info-circle
-
-  - title: Task Prioritization
-    description: We will analyze the content of forwarded messages to prioritize tasks based on urgency and importance, ensuring that users focus on what matters most at any given time
-    fontawesome_icon_name: magic
-
-
 
 # Theme Settings
 topbar_color: "#000000"
@@ -116,5 +89,5 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["ru", "en"]
-exclude_from_localizations: ["assets"]
-default_locale_in_subfolder: true
+exclude_from_localizations: ["javascript", "images", "css"]
+#default_locale_in_subfolder: true

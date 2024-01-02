@@ -26,7 +26,12 @@
 		<ul>
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
+					{% if site.lang == "en" %}
+						{% capture right_link %}{{ relative_url }}/en{{ page.url }}{% endcapture %}
+						<li><a href="{{right_link}}" target="_self">{% translate page.title %}</a></li>
+					{% elsif site.lang == "ru" %}
+						<li><a href="{{ page.url | relative_url }}" target="_self">{% translate page.title %}</a></li>
+					{% endif %}
 				{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
