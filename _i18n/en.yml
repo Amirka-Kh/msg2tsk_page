@@ -2,7 +2,7 @@ global:
   english: English
   russian: Русский
   app_description: Msg2Task is your virtual task organizer! Forward messages to us, and we'll turn them into actionable tasks, helping you stay organized and on top of your to-do list effortlessly.
-  app_price: Free while beta
+  app_price:
 pages:
   changelog: What's New
   products: Our Products
